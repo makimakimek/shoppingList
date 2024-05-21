@@ -1,0 +1,38 @@
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#title {
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+#productInput {
+    height: 20px;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+}
+
+#productOptions {
+    position: absolute;
+}
+
+#addedItem {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: center;
+    width: 200px;
+}
+
+#checkmark {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
